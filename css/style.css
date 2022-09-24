@@ -1,5 +1,36 @@
-
+*{
+   margin: 0; 
+   padding: 0;
+   box-sizing: border-box;
+}
 
 body {
-    background-color: rgba(46, 179, 101, 0.76);
+    background-color: #1E1E29;
 }
+
+header {
+    background-color: #004374;
+    height: 82px;
+
+}
+
+.cabecalho {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 82px;
+}
+
+.menu {
+    color: white;
+    font-size: 20px;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-family: sans-serif;
+}
+
+/* .container { 
+    width: 1200px;
+    display: flex;
+    justify-content: space-between;
+}*/
