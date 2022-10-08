@@ -1,0 +1,89 @@
+*{
+   margin: 0; 
+   padding: 0;
+   box-sizing: border-box;
+}
+
+body {
+    background-color: #1E1E29;
+}
+
+header {
+    background-color: #004374;
+    height: 82px;
+    /* width: 1200px; */
+
+}
+
+.container { 
+    width: 1536px;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+    position: relative;
+
+}    
+/* .cabecalho {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 82px;
+} */
+.logo {
+    height: 60px;
+}
+
+.menu {
+    display:flex;
+    justify-content:space-around;
+    width: 700px;
+    margin: 0 auto;
+}
+
+.menu a {
+    color: white;
+    font-size: 15px;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-family: sans-serif;
+    justify-content: center;
+    position: relative;
+    margin: 0 auto;
+}
+
+.menu2 {
+    display: flex;
+    justify-content: space-evenly;
+    width: 190px;
+    position: relative;
+    margin: 0 auto;
+}
+
+.banner {
+    background-image: url(../img/tamplate\ 2.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 500px;
+    /* width: 100%; */
+}
+
+.rodape {
+    height: 150px;
+    position: absolute;
+    bottom: 0;
+    flex-shrink: 0;
+    background-color: #004374;
+    width: 100%;    
+    line-height: 100px;
+    display: flex;
+    vertical-align: middle;
+}
+
+.logo-rodape {
+    justify-items: ;
+    margin: 0 auto;
+  
+}
