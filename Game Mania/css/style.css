@@ -33,11 +33,13 @@ header {
 } */
 .logo {
     height: 60px;
+    position: relative;
+    margin: 0 auto;
 }
 
 .menu {
     display:flex;
-    justify-content:space-around;
+    justify-content: space-between;
     width: 700px;
     margin: 0 auto;
 }
@@ -49,13 +51,12 @@ header {
     text-transform: uppercase;
     font-family: sans-serif;
     justify-content: center;
-    position: relative;
-    margin: 0 auto;
+    position: relative; 
 }
 
-.menu2 {
+.menu-icones {
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-between;
     width: 190px;
     position: relative;
     margin: 0 auto;
@@ -79,10 +80,15 @@ header {
     width: 100%;    
     line-height: 100px;
     display: flex;
-    vertical-align: middle;
+    
 }
 
 .logo-rodape {
     margin: 0 auto;
+    position: relative;
+    justify-content: center;
+    height: 60px;
+    vertical-align: middle;
+    align-items: center;
   
 }
