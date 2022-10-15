@@ -1,2 +1,6 @@
-alert('exemplo de comando alert');
-console.log('mensagem enviada pelo console');
+function cadastrarNewsletter() {
+    let email = document.getElementById("campo-email").value
+
+    alert(email)
+    console.log(email)
+}

@@ -1,5 +1,5 @@
- @import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@200&displat=swap');
-:root {
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@200&display=swap');
+ :root {
     --font-style: 'Nunito Sans', sans-serif;
 }
 
@@ -62,19 +62,7 @@
     position: relative;
     margin: 0 auto;
 }
- 
- .rodape {
-     height: 100px;
-     position: absolute;
-     bottom: 0;
-     flex-shrink: 0;
-     background-color: #004374;
-     width: 100%;    
-     text-align: left;
-     line-height: 100px;
- 
- }
- 
+
 .login-box {
     position: absolute;
     top: 50%;
@@ -83,7 +71,6 @@
     padding: 40px;
     transform: translate(-50%, -50%);
     background-color: #004374;
-    box-shadow: 0 15px 25px rgba(143, 124, 236, 0.7);
     border-radius: 10px;
 }
 
@@ -92,6 +79,7 @@
     padding: 0;
     color: white;
     text-align: center;
+    text-transform: uppercase;
 }
 
 .login-box .user-box input {
@@ -110,7 +98,7 @@
 .login-box .user-box label {
     position: relative;
     left: 0;
-    top: -60px;
+    top: -70px;
     padding: 10px 0;
     font-size: 16px;
     color: white;
@@ -128,14 +116,14 @@
 
 #submit {
     padding: 10px 20px;
-    color: white;
+    color:  #CBBDDB;
     font-size: 16px;
     text-decoration: none;
     text-transform: uppercase;
     overflow: hidden;
     transition: .5s;
     letter-spacing: 4px;
-    border: 1px solid #004374;
+    border: 1px solid #1E1E29;
     margin: auto;
 }
 
@@ -143,7 +131,7 @@
     background: #1E1E29;
     color: white;
     border-radius: 5px;
-    box-shadow: 0 0 5px #1E1E29, 0 0 25px #1E1E29, o o 50px #1E1E29, 0 0 100px #1E1E29;
+    box-shadow: 0 0 5px #1E1E29, 0 0 25px #1E1E29, o o 50px #1E1E29 0 0 100px #1E1E29;
 }
 
 .button-form {
@@ -155,7 +143,7 @@
 #register {
     font-size: 14px;
     text-decoration: none;
-    color: #1E1E29; 
+    color: #CBBDDB; 
     margin: auto;
     width: 60%;
     text-align: center;   
@@ -163,14 +151,26 @@
 
 #register a {
     margin: auto;
-    color: white;
+    color:#CBBDDB;
     text-decoration: none;
     text-transform: uppercase;
 }
 
 #register a:hover {
     background: #1E1E29;
-    color: white;
+    color: #CBBDDB;
     border-radius: 5px;
     box-shadow: 0 0 5px #1E1E29, 0 0 25px #1E1E29, o o 50px #1E1E29, 0 0 100px #1E1E29;
+}
+
+.rodape {
+    height: 100px;
+    position: absolute;
+    bottom: 0;
+    flex-shrink: 0;
+    background-color: #004374;
+    width: 100%;    
+    text-align: left;
+    line-height: 100px;
+
 }
