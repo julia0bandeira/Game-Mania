@@ -41,7 +41,7 @@
 .menu {
     display:flex;
     justify-content: space-between;
-    width: 700px;
+    width: 600px;
     margin: 0 auto;
 }
 
@@ -163,6 +163,9 @@
     box-shadow: 0 0 5px #1E1E29, 0 0 25px #1E1E29, o o 50px #1E1E29, 0 0 100px #1E1E29;
 }
 
+footer {
+    background-color: #004374;
+}
 .rodape {
     height: 100px;
     position: absolute;
@@ -174,3 +177,8 @@
     line-height: 100px;
 
 }
+
+/* .logo-rodape {
+ 
+} */
+

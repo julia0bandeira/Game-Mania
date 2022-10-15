@@ -34,7 +34,7 @@ header {
 .menu {
     display:flex;
     justify-content: space-between;
-    width: 700px;
+    width: 600px;
     margin: 0 auto;
 }
 
@@ -113,9 +113,9 @@ footer {
     color: white;
 }
 
-.logo-rodape {
-    
-}
+/* .logo-rodape {
+ 
+} */
 
 .sociais {
     width: 31%;
