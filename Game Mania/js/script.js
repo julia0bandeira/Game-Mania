@@ -1,7 +1,7 @@
 function cadastrarNewsletter() {
     let email = document.getElementById("campo-email").value
 
-    alert(email)
+    alert("Seu E-mail foi cadastrado com sucesso.\n Obrigado!")
     console.log(email)
 }
 const password = document.getElementById("password");
