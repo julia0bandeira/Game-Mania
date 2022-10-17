@@ -32,7 +32,27 @@
             </nav>
         </div>
     </header>
-    <div class="login-box">
+
+    <section class="login-box">
+        <form>
+            <h3>Login</h3>
+            <div class="user-box">
+                <input type="text" placeholder="E-mail do usuário" id="login">
+            </div>
+            <div class="user-box">
+                <input type="password" placeholder="Senha" id="senha">
+            </div> 
+            <div class="button-form"> 
+                <input type="submit" id= submit onclick="logar(); return false">
+                <div class="register">
+                    Não tem uma conta ainda?
+                    <a href="index.html">Registrar</a>
+                </div>
+            </div>      
+        </form>
+    </section>
+
+    <!-- <div class="login-box">
         <h2>Login</h2>
         <form id="form" method="POST">
             <div class="user-box">
@@ -44,14 +64,14 @@
                 <label>Senha</label>
             </div>
             <div class="button-form">
-                <a id="submit" href="#">Enviar</a>
+                <input autocomplete="off" id="submit" type="submit" onclick="logar()">
                 <div id="register">
                     Não tem uma conta ainda?
                     <a href="#">Registrar</a>
                 </div>
             </div>
         </form>
-    </div>
+    </div> -->
     <footer>
         <div class="rodape">
             <div class="logo-rodape">
@@ -59,4 +79,5 @@
             </div>
         </div>
     </footer>
+
 </body>

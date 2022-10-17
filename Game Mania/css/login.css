@@ -74,7 +74,7 @@
     border-radius: 10px;
 }
 
-.login-box h2 {
+.login-box h3 {
     margin: 0 0 30px;
     padding: 0;
     color: white;
@@ -95,7 +95,7 @@
     background: transparent;    
 }
 
-.login-box .user-box label {
+/* .login-box .user-box label {
     position: relative;
     left: 0;
     top: -70px;
@@ -104,19 +104,18 @@
     color: white;
     pointer-events: none;
     transition: .5s;
-}
+} */
 
-.login-box .user-box input:focus~label,
+/* .login-box .user-box input:focus~label,
 .login-box .user-box input:valid~label {
     top: -85px;
     left: 0;
     color: #1E1E29;
     font-size: 12px;
-}
+} */
 
 #submit {
     padding: 10px 20px;
-    color:  #CBBDDB;
     font-size: 16px;
     text-decoration: none;
     text-transform: uppercase;
@@ -140,7 +139,7 @@
     margin-top: 20px;
 }
 
-#register {
+.register {
     font-size: 14px;
     text-decoration: none;
     color: #CBBDDB; 
@@ -149,14 +148,15 @@
     text-align: center;   
 }
 
-#register a {
+.register a {
     margin: auto;
     color:#CBBDDB;
     text-decoration: none;
     text-transform: uppercase;
+    letter-spacing: 2px;
 }
 
-#register a:hover {
+.register a:hover {
     background: #1E1E29;
     color: #CBBDDB;
     border-radius: 5px;
