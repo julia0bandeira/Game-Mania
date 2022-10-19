@@ -102,6 +102,35 @@ header {
     color: white;
 }
 
+.divisao {
+    
+    margin: 30px auto;
+    padding: 0.2em 0.2em;
+    background-color: #004374;
+    
+    text-align: center;
+    display: table;
+    vertical-align: middle;
+}
+
+.divisao h2{
+    color: white;
+    font-size: 25px;
+    text-transform: uppercase;
+    font-family: sans-serif;
+   
+}
+
+.departamentos {
+    height: 200px;
+    display: flex;
+    justify-content: space-around;
+    width: 190px;
+    position: relative;
+    margin: 0 auto;
+    border-radius: 100%;
+}
+
 footer {
     background-color: #004374;
 }
@@ -111,6 +140,7 @@ footer {
     justify-content: space-between;
 
     color: white;
+
 }
 
 /* .logo-rodape {
