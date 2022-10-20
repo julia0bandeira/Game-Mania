@@ -63,8 +63,16 @@ header {
     height: 500px;
 }
 
-.banner-f1 {
-    background-image: url(../img/tamplate\ 2.png);
+.banner-joystick {
+    background-image: url(../img/banner-joystick.png);
+}
+
+.banner-headset {
+    background-image: url(../img/banner-headset.png);
+}
+
+.banner-chair {
+    background-image: url(../img/banner-chair.png);
 }
 
 .posicionamento-banner {
@@ -213,9 +221,6 @@ footer {
 
 }
 
-/* .logo-rodape {
- 
-} */
 
 .sociais {
     width: 31%;
