@@ -27,6 +27,19 @@ $(document).ready(function() {
     }   
 })
 
+// jquery ---------------------------------------------------
+ $("#barras").click(function() {
+
+     $("#menu").toggleClass("menu-ativo");
+    
+     Toggle
+     if( $("#menu").hasClass("menu-ativo") ) {
+         $("#menu").removeClass("menu-ativo")
+     } else {
+         $("#menu").addClass("menu-ativo")
+     }
+ })
+
 function cadastrarNewsletter() {
     let email = document.getElementById("campo-email").value
 
