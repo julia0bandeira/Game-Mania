@@ -32,23 +32,6 @@ header {
     margin: 0;
 }
 
-/* .menu {
-    display:flex;
-    justify-content: space-between;
-    width: 600px;
-    margin: 0 auto;
-}
-
-.menu a {
-    color: white;
-    font-size: 15px;
-    text-decoration: none;
-    text-transform: uppercase;
-    font-family: sans-serif;
-    justify-content: center;
-    position: relative; 
-} */
-
 #menu {
     display:flex;
     justify-content: space-between;
@@ -292,7 +275,30 @@ footer {
     font-weight: 600;
 }
 
-@media (max-width: 600px) {
+@media (max-width: 1200px) {
+
+    .logo {
+        width: 35%;
+        height: 45%;
+    }
+
+    #menu {
+        width: 500px;
+    }
+
+    #menu a {
+        font-size: 12px;
+      }
+
+    .menu-icones {
+        width: 20%;
+       
+    }
+      
+}
+
+
+@media (max-width: 990px) {
 
     .menu-perfil {
         width: 15%;
@@ -310,18 +316,12 @@ footer {
     }
 
     .logo {
-        padding: 10 10;
         justify-content: center;
         order: 2;
-        width: 50%;
+        width: 65%;
         height: 70%;
        
     }
-
-    /* .menu-icones {
-        order: 3;
-        width: 6em;
-    } */
 
     #menu {
         display: block;
@@ -381,76 +381,18 @@ footer {
         transform: rotate(-135deg);
         top: -7px;
     }
+
+    .logo-rodape {
+        width: 200px;
+        height: 50px;
+    }
+
+    .sociais button{
+        width: 55%;
+        font-weight: 300;
+    }
+    .sociais input[type="email"]{
+        height: 47px;
+        width: 75%;  
+    }    
   }
-
-/* @media screen and (max-width: 600px) {
-    .cabecalho {
-        position: relative;
-    }
-    
-    .menu {
-        display: none;
-
-        position: absolute;
-        top: 80px;
-        right: 0px;
-
-        height: 400px;
-
-        flex-direction: column;
-        justify-content: space-around;
-        background-color: #1E1C21;
-        align-items: center;
-
-    }
-    .logo {
-        order: 2;
-        width: 20em;
-        height: 3em;
-    }
-
-    .menu-icones {
-        order: 3;
-        width: 20em;
-        height: 3em;
-    }
-}
-
-@media screen and (max-width: 400px) {
-
-    .cabecalho {
-        position: relative;
-    }
-    
-    #icone-menu {
-        order: 1;
-        display: inline-block;
-        width: 2em;
-        height: 3em;
-    }
-
-    .logo {
-        order: 2;
-        width: 100em;
-        height: 2em;
-    }
-
-    .menu-icones {
-        display: flex;
-
-    }
-
-    .menu-icones img {
-        order: 3;
-        width: 2em;
-        height: 2em;
-    }
-
-    .departamentos {
-
-       display:contents;
-       vertical-align: middle;
-
-    }
-    
-} */
