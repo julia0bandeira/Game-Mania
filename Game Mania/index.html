@@ -6,7 +6,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Home - Game Mania</title>
     <link rel="stylesheet" href="css/style.css">
-    <!-- CSS only -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
     <script src="js/jquery.js" defer></script>
     <script src="js/script.js" defer></script>
@@ -16,13 +15,25 @@
     <header>
         <div class="container cabecalho">
             <img src="img/logo2.0.png"  class="logo" height="60" alt="logo do site Game Mania">
-            <nav class="menu">
-                <a href="index.html">início</a>
-                <a href="index.html">lançamentos</a>
-                <a href="index.html">promoções</a>
-                <a href="index.html">histórico</a>
-                <a href="index.html">Contato</a>
+            <nav id="nav">
+                <button aria-label="Abrir Menu" id="btn-mobile" aria-haspopup="true" aria-controls="menu" aria-expanded="false">
+                  <span id="hamburger"></span>
+                </button>
+                <ul id="menu" role="menu">
+                  <li><a href="#">início</a></li>
+                  <li><a href="#">lançamentos</a></li>
+                  <li><a href="#">promoções</a></li>
+                  <li><a href="#">histórico</a></li>
+                  <li><a href="#">contato</a></li>
+                </ul>
             </nav>
+            <!-- <nav id="menu" class="menu">
+                <a href="#" target="_blank">início</a>
+                <a href="#" target="_blank">lançamentos</a>
+                <a href="#" target="_blank">promoções</a>
+                <a href="#" target="_blank">histórico</a>
+                <a href="#" target="_blank">Contato</a>
+            </nav> -->
             <nav class="menu-icones">
                 <a href="login.html"> <img src="img/perfil folha.png" height="55"></a>  
                 <a href> <img src="img/coraçao folha.png" height="55"> </a>
