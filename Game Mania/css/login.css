@@ -38,29 +38,45 @@
     margin: 0 auto;
 }
 
-.menu {
+#menu {
     display:flex;
     justify-content: space-between;
-    width: 600px;
+    width: 700px;
     margin: 0 auto;
-}
+    list-style: none;
+    padding: 0px 0px 0px 0px;
 
-.menu a {
+  }
+  
+#menu a {
+    display: block;
+    padding: 0.5rem;
     color: white;
-    font-size: 16px;
+    font-size: 15px;
     text-decoration: none;
     text-transform: uppercase;
     font-family: sans-serif;
     justify-content: center;
     position: relative; 
-}
+  }
+  
+#btn-mobile {
+    display: none;
+  }
 
 .menu-icones {
     display: flex;
     justify-content: space-between;
     width: 190px;
     position: relative;
-    margin: 0 auto;
+    margin: 0;
+}
+
+.menu-perfil {
+    display: none;
+    width: 190px;
+    position: relative;
+    margin: 0;
 }
 
 .login-box {
@@ -94,25 +110,6 @@
     outline: none;
     background: transparent;    
 }
-
-/* .login-box .user-box label {
-    position: relative;
-    left: 0;
-    top: -70px;
-    padding: 10px 0;
-    font-size: 16px;
-    color: white;
-    pointer-events: none;
-    transition: .5s;
-} */
-
-/* .login-box .user-box input:focus~label,
-.login-box .user-box input:valid~label {
-    top: -85px;
-    left: 0;
-    color: #1E1E29;
-    font-size: 12px;
-} */
 
 #submit {
     padding: 10px 20px;
@@ -178,7 +175,124 @@ footer {
 
 }
 
-/* .logo-rodape {
- 
-} */
+@media (max-width: 1200px) {
 
+    .logo {
+        width: 35%;
+        height: 45%;
+    }
+
+    #menu {
+        width: 500px;
+    }
+
+    #menu a {
+        font-size: 12px;
+      }
+
+    .menu-icones {
+        width: 20%;
+       
+    }
+      
+}
+
+
+@media (max-width: 990px) {
+
+    .menu-perfil {
+        width: 15%;
+        order: 3;
+        display: flex;
+    }
+
+    .menu-icones {
+        display: none;
+    }
+
+    header {
+        background-color: #004374;
+        height: 70px;
+    }
+
+    .logo {
+        justify-content: center;
+        order: 2;
+        width: 65%;
+        height: 70%;
+       
+    }
+
+    #menu {
+        display: block;
+        position: absolute;
+        width: 100%;
+        top: 70px;
+        right: 0px;
+        background: #004374;
+        transition: 0.6s;
+        z-index: 1000;
+        height: 0px;
+        visibility: hidden;
+        overflow-y: hidden;
+    }
+    #nav.active #menu {
+        height: calc(100vh - 70px);
+        visibility: visible;
+        overflow-y: auto;
+    }
+    #menu a {
+        padding: 1rem 0;
+        margin: 0 1rem;
+        border-bottom: 2px solid #fff(0, 0, 0, 0.05);
+    }
+    #btn-mobile {
+        order: 1;  
+        display: flex;
+        padding: 0.5rem 1rem;
+        font-size: 1rem;
+        border: none;
+        background: none;
+        cursor: pointer;
+        gap: 0.5rem;
+    }
+    #hamburger {
+        border-top: 2px solid #fff;
+        width: 20px;
+    }
+    #hamburger::after,
+    #hamburger::before {
+        content: '';
+        display: block;
+        width: 20px;
+        height: 2px;
+        background: white;
+        margin-top: 5px;
+        transition: 0.3s;
+        position: relative;
+    }
+    #nav.active #hamburger {
+        border-top-color: transparent;
+    }
+    #nav.active #hamburger::before {
+        transform: rotate(135deg);
+    }
+    #nav.active #hamburger::after {
+        transform: rotate(-135deg);
+        top: -7px;
+    }
+
+    .logo-rodape {
+        width: 200px;
+        height: 50px;
+    }
+
+    .sociais button{
+        width: 55%;
+        font-weight: 300;
+    }
+    .sociais input[type="email"]{
+        height: 47px;
+        width: 75%;  
+    }    
+  }

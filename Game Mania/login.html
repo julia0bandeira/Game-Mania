@@ -15,21 +15,27 @@
 <body style="background-color: #1E1E29">
     <header>
         <div class="container cabecalho">
-            <div class="logo">
-                <img src="img/logo2.0.png" height="60" alt="logo do site Game Mania">
-            </div>
-            <nav class="menu">
-                <a href="index.html">início</a>
-                <a href="index.html">lançamentos</a>
-                <a href="index.html">promoções</a>
-                <a href="index.html">histórico</a>
-                <a href="index.html">contato</a>
+            <img src="img/logo2.0.png"  class="logo" height="60" alt="logo do site Game Mania">
+            <nav id="nav">
+                <button aria-label="Abrir Menu" id="btn-mobile" aria-haspopup="true" aria-controls="menu" aria-expanded="false">
+                  <span id="hamburger"></span>
+                </button>
+                <ul id="menu" role="menu">
+                  <li><a href="#">início</a></li>
+                  <li><a href="#">lançamentos</a></li>
+                  <li><a href="#">promoções</a></li>
+                  <li><a href="#">histórico</a></li>
+                  <li><a href="#">contato</a></li>
+                </ul>
             </nav>
             <nav class="menu-icones">
-                <a href="login.html"> <img src="img/perfil folha.png" height="55"></a>  
-                <a href> <img src="img/coraçao folha.png" height="55"> </a>
-                <a href> <img src="img/sacola folha.png" height="55"> </a>
+                <a href="login.html"> <img src="img/perfil folha.png" height="50"></a>  
+                <a href> <img src="img/coraçao folha.png" height="50"> </a>
+                <a href> <img src="img/sacola folha.png" height="50"> </a>
             </nav>
+            <div class="menu-perfil">
+                <a href="login.html"> <img src="img/perfil folha.png" height="50"></a>  
+            </div>
         </div>
     </header>
 
@@ -51,27 +57,7 @@
             </div>      
         </form>
     </section>
-
-    <!-- <div class="login-box">
-        <h2>Login</h2>
-        <form id="form" method="POST">
-            <div class="user-box">
-                <input autocomplete="off" id="username" type="text" name="" required="">
-                <label>Nome do Usuário</label>
-            </div>
-            <div class="user-box">
-                <input autocomplete="off" id="password" type="password" name="" required="">
-                <label>Senha</label>
-            </div>
-            <div class="button-form">
-                <input autocomplete="off" id="submit" type="submit" onclick="logar()">
-                <div id="register">
-                    Não tem uma conta ainda?
-                    <a href="#">Registrar</a>
-                </div>
-            </div>
-        </form>
-    </div> -->
+    
     <footer>
         <div class="rodape">
             <div class="logo-rodape">
