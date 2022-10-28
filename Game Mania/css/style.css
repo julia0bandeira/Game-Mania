@@ -19,6 +19,7 @@ header {
 }  
 
 .cabecalho {
+    position: relative;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -26,7 +27,7 @@ header {
 }
 
 .logo {
-    height: 60px;
+    height: 50px;
     position: relative;
     margin: 0;
 }
@@ -51,10 +52,11 @@ header {
 #menu {
     display:flex;
     justify-content: space-between;
-    width: 600px;
+    width: 700px;
     margin: 0 auto;
     list-style: none;
-    gap: 0.5rem;
+    padding: 0px 0px 0px 0px;
+
   }
   
 #menu a {
@@ -76,6 +78,13 @@ header {
 .menu-icones {
     display: flex;
     justify-content: space-between;
+    width: 190px;
+    position: relative;
+    margin: 0;
+}
+
+.menu-perfil {
+    display: none;
     width: 190px;
     position: relative;
     margin: 0;
@@ -285,17 +294,34 @@ footer {
 
 @media (max-width: 600px) {
 
-    .logo {
-        order: 2;
-        width: 20em;
-        height: 3em;
+    .menu-perfil {
+        width: 15%;
+        order: 3;
+        display: flex;
     }
 
     .menu-icones {
-        order: 3;
-        width: 20em;
-        height: 3em;
+        display: none;
     }
+
+    header {
+        background-color: #004374;
+        height: 70px;
+    }
+
+    .logo {
+        padding: 10 10;
+        justify-content: center;
+        order: 2;
+        width: 50%;
+        height: 70%;
+       
+    }
+
+    /* .menu-icones {
+        order: 3;
+        width: 6em;
+    } */
 
     #menu {
         display: block;
