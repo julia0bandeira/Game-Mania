@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Home - Game Mania</title>
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
     <script src="js/jquery.js" defer></script>
     <script src="js/script.js" defer></script>
@@ -229,12 +230,48 @@
 
     <footer>
         <div class="container rodape">
-            <img src="img/logo2.0.png" class="logo-rodape" height= "60" alt="Logo E-Players">
+            <div class="links-footer">
+                <div>
+                    <h2>Saiba Mais</h2>
+                    <ul>
+                        <li><a href="#">Regras de utilização</a></li>
+                        <li><a href="#">Suporte</a></li>
+                        <li><a href="#">Central de Ajuda</a></li>
+                        <li><a href="#">Contato</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h2>Páginas</h2>
+                    <ul>
+                        <li><a href="#">Início</a></li>
+                        <li><a href="#">lançamentos</a></li>
+                        <li><a href="#">Promoções</a></li>
+                        <li><a href="#">Histórico</a></li>
+                        <li><a href="#">Contato</a></li>
+                        <li><a href="#">Login/Cadastro</a></li>
+                        <li><a href="#">Favoritos</a></li>
+                        <li><a href="#">Carrinho de Compras</a></li>
+                    </ul>
+                </div>
+            </div>
+            <img class="logo-rodape" src="img/logo2.0.png" class="logo-rodape"  alt="Logo E-Players">
             <div class="sociais">
+                <p>Receba notícias e promoções!</p>
                 <form action="">
                     <input id="campo-email" type="email" placeholder="E-mail" required>
                     <button onclick="cadastrarNewsletter()">Cadastrar</button>                
                 </form>
+                <ul class="wrapper">
+                    <h2>Siga-nos em:</h2>
+                    <li class="icon facebook">
+                      <span class="tooltip">Facebook</span>
+                      <span><i class="fab fa-facebook-f"></i></span>
+                    </li>
+                    <li class="icon instagram">
+                      <span class="tooltip">Instagram</span>
+                      <span><i class="fab fa-instagram"></i></span>
+                    </li>
+                  </ul>
             </div>
         </div>
     </footer>
