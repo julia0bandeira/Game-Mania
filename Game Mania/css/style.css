@@ -124,9 +124,9 @@ header {
 .divisao {
     
     margin: 30px auto;
-    padding: 0.2em 0.2em;
+    padding: 0.2em 0.2em 0.2em 0.2em;
     background-color: #004374;
-    
+   
     text-align: center;
     display: table;
     vertical-align: middle;
@@ -140,14 +140,32 @@ header {
    
 }
 
-.departamentos a{
-    height: 60px;
-    display:inline;
+.departamentos {
+    height: 300px;
+    align-self: center;
+    display: flex;
+    text-align: center;
+    vertical-align: middle;
+
     justify-content: space-between;
+    line-height: 5px;
+    
+    
+}
+
+.departamentos img {
+    height: 200px;
+}
+
+.departamentos a{
+    display:inline-table;
     width: 60px;
-    position: relative;
-    margin: 0 auto;
-    border-radius: 100%;
+    text-decoration: none;
+    color: white;
+    font-size: 15px;
+    text-transform: uppercase;
+    font-family: sans-serif;
+    
 }
 
 .ofertas {
@@ -402,6 +420,18 @@ footer {
         width: 20%;
        
     }
+
+    .departamentos {
+        height: 150px;
+    }
+
+    .departamentos img {
+        height: 150px;
+    }
+
+    .departamentos a {
+        font-size: 10px;
+    }
       
 }
 
@@ -504,4 +534,182 @@ footer {
         height: 47px;
         width: 75%;  
     }    
+
+    .departamentos {
+        display: flex;
+        height: auto;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-self: center;
+    
+    }
+
+    .departamentos img {
+        height: 300px;
+    }
+
+    .departamentos a {
+        font-size: 10px;
+    }
+    
+    .links-footer h2 {
+        font-size: 15px;
+    }
+    
+    .links-footer a {
+        font-size: 10px;
+    }
+    
+    .logo-rodape {
+        align-self: center;
+        width: 20%;
+        height: 20%;
+    }
+    
+    
+    .sociais p {
+        font-size: 15px;
+    
+    }
+    .sociais input[type="email"]{
+        height: 27px;
+        width: 85%;  
+    }
+    
+    .sociais button{
+        font-weight: 200;
+    }
+    
+    
+    .wrapper h2 {
+        font-size: 15px;
+    }
+    
+    .wrapper .icon {
+        width: 35px;
+        height: 35px;
+        font-size: 15px;
+    }
+  }
+
+  @media (max-width: 768px) {
+    
+
+    .espaco-produtos {
+        justify-content: space-around;
+    }
+
+    .cardnews{
+        width: 10em;
+        height: 17.5em;
+    }
+
+    .logo-rodape {
+        order: 1;
+        align-self: baseline;
+        width: 25%;
+        height: 100%;
+
+    }
+
+    .links-footer {
+        order: 2;
+
+    }
+
+    .links-footer h2 {
+        font-size: 10px;
+    }
+    
+    .links-footer a {
+        font-size: 5px;
+    }
+
+    .sociais {
+        order: 3;
+    }
+
+   
+    .sociais p {
+        font-size: 10px;
+    
+    }
+    .sociais input[type="email"]{
+        height: 30px;
+        width: 85%;  
+        font-size: 10px;
+    }
+    
+    .sociais button{
+        font-weight: 30;
+        width: 35%;
+        font-weight: 200;
+        font-size: 10px;
+    }
+    
+    
+    .wrapper h2 {
+        font-size: 10px;
+    }
+    
+    .wrapper .icon {
+        width: 25px;
+        height: 25px;
+        font-size: 10px;
+    }
+
+  }
+
+  @media (max-width: 510px) {
+
+    .departamentos img {
+        height: 100px;
+    }
+
+    .logo-rodape {
+        display: none;
+    }
+
+    .links-footer {
+        justify-content: space-between;
+    }
+
+    .links-footer h2 {
+        font-size: 20px;
+        padding: 15px;
+    }
+    
+    .links-footer a {
+        font-size: 15px;
+
+    }
+   
+    .sociais p {
+        font-size: 15px;
+    
+    }
+    .sociais input[type="email"]{
+        height: 30px;
+        width: 200px;  
+        font-size: 10px;
+    }
+    
+    .sociais button{
+        font-weight: 30;
+        width: 50px;
+        font-weight: 200;
+        font-size: 10px;
+    }
+    
+    
+    .wrapper h2 {
+        display: inline-flex;
+        font-size: 20px;
+    }
+    
+    .wrapper .icon {
+        width: 25px;
+        height: 25px;
+        font-size: 10px;
+    }
   }
